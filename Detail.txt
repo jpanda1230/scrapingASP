@@ -1,0 +1,17 @@
+This project is developed in Python 3.7
+
+Before running this project We have to install two modules.
+If the two modules have already pre-installed in your laptop, no need to do that!
+
+-pip install request
+-pip install lxml
+
+In order to add the speed of scraping I don't use Beautiful Soup4 or other scraping tools.
+Only used requests module and string processing.
+The result will be written in matches.txt:
+
+Searching ID could be controlled by your decision: 
+For example: Python code: // for i in range(238021, 238050)://
+
+The result string type could also be controlled by your decision:
+For example : Python code : // 0238023   Detected Item:   OPENDOOR PROPERTY D LLC//
